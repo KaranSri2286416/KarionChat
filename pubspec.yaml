@@ -1,0 +1,29 @@
+name: karion_chat
+description: Karion Chat - Flutter demo app preconfigured with Firebase
+version: 1.0.0+1
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.10.0
+  firebase_auth: ^4.6.5
+  cloud_firestore: ^4.9.0
+  firebase_messaging: ^14.4.3
+  firebase_storage: ^11.2.6
+  provider: ^6.0.5
+  image_picker: ^0.8.7+5
+  flutter_local_notifications: ^13.0.0
+  cached_network_image: ^3.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
