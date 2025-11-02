@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "66728829987",
+    "project_id": "karion-chat",
+    "storage_bucket": "karion-chat.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66728829987:android:50c45d56ea633ae930fd96",
+        "android_client_info": {
+          "package_name": "com.karionchat.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm52ct4drG4qdVC1DXA4JT6BMx2jB_8Ps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
