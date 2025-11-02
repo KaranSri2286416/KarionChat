@@ -1,0 +1,49 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'dev.flutter.flutter-gradle-plugin'
+}
+
+android {
+    namespace "com.karionchat.app"
+    compileSdk 34
+
+    defaultConfig {
+        // Your app’s unique ID
+        applicationId "com.karionchat.app"
+        minSdk 23
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            // Disable code shrinking for now (optional)
+            minifyEnabled false
+            shrinkResources false
+            // If you later enable it, keep rules in proguard-rules.pro
+        }
+        debug {
+            debuggable true
+        }
+    }
+
+    // Ensure Kotlin compatibility
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
